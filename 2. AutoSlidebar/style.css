@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.container {
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a5acd;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 110px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: -50px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
